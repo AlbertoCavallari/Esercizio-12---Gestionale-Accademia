@@ -1,0 +1,108 @@
+[
+    {
+        "user_id": 122025,
+        "credentials": {
+            "login_name": "nemesianus.dorian@istruzione.circolo.gov",
+            "login_password": "Altalena.050405"
+        },
+        "profile": {
+            "first_name": "Nemesianus",
+            "last_name": "Dorian"
+        },
+        "role": {
+            "primary_role": "ADMINISTRATOR",
+            "role_specification": "MILITARY_GENERAL"
+        }
+    },
+    {
+        "user_id": 122026,
+        "credentials": {
+            "login_name": "juno.delawair@difesa.circolo.gov",
+            "login_password": "B1gg3stGun1nTh3C1rc0l0_2025"
+        },
+        "profile": {
+            "first_name": "Juno",
+            "last_name": "Delawair"
+        },
+        "role": {
+            "primary_role": "ADMINISTRATOR",
+            "role_specification": "MILITARY_GENERAL"
+        }
+    },
+    {
+        "user_id": 134105,
+        "credentials": {
+            "login_name": "zuri.moss@difesa.circolo.gov",
+            "login_password": "TheReal_B1gg3stGun1nTh3C1rc0l0_2025"
+        },
+        "profile": {
+            "first_name": "Zuri",
+            "last_name": "Moss"
+        },
+        "role": {
+            "primary_role": "INSTRUCTOR",
+            "role_specification": "MILITARY_SERGEANT"
+        }
+    },
+    {
+        "user_id": 162534,
+        "credentials": {
+            "login_name": "seneca.graves@difesa.circolo.gov",
+            "login_password": "MyAnna.99"
+        },
+        "profile": {
+            "first_name": "Seneca",
+            "last_name": "Graves"
+        },
+        "role": {
+            "primary_role": "INSTRUCTOR",
+            "role_specification": "MILITARY_LIEUTENANT"
+        }
+    },
+    {
+        "user_id": 162701,
+        "credentials": {
+            "login_name": "asteria.augekeen@difesa.circolo.gov",
+            "login_password": "MyAnna.99"
+        },
+        "profile": {
+            "first_name": "Asteria",
+            "last_name": "Augekeen"
+        },
+        "role": {
+            "primary_role": "INSTRUCTOR",
+            "role_specification": "MILITARY_CAPTAIN"
+        }
+    },
+
+    {
+        "user_id": 223764,
+        "credentials": {
+            "login_name": "cadet.223764@difesa.circolo.gov",
+            "login_password": "AnnaLasciaStareSeneca!05"
+        },
+        "profile": {
+            "first_name": "Quintilla",
+            "last_name": "Marcail"
+        },
+        "role": {
+            "primary_role": "CADET",
+            "role_specification": "CADET_GRADE_5"
+        }
+    },
+    {
+        "user_id": 251887,
+        "credentials": {
+            "login_name": "cadet.251887@difesa.circolo.gov",
+            "login_password": "OroGrigio/99"
+        },
+        "profile": {
+            "first_name": "Anna Baird",
+            "last_name": "Drake"
+        },
+        "role": {
+            "primary_role": "CADET",
+            "role_specification": "CADET_GRADE_5"
+        }
+    }
+]
