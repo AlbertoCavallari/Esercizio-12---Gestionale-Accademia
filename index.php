@@ -1,4 +1,5 @@
 <?php
+session_name("CELIN_SID");
 session_start();
 
 if (!isset($_SESSION['user_id'])) {
@@ -8,7 +9,7 @@ if (!isset($_SESSION['user_id'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +18,16 @@ if (!isset($_SESSION['user_id'])) {
 </head>
 <body>
     
-    <h1> Benvenuto nel Gestionale dell'Accademia </h1>
-    <br>
+    <div class="container">
+        <h1>Benvenuto nel Gestionale dell'Accademia</h1>
 
-    <p> Sei loggato come utente con ID: <?php echo htmlspecialchars($_SESSION['user_id']); ?> </p>
-    <br>
-    <a href="/pages/logout.php">Logout</a>
+        <div class="info-box">
+            <p>Sei loggato come: <strong><?php echo htmlspecialchars($_SESSION['first_name']); ?></strong></p>
+            <p>ID Utente: <strong><?php echo htmlspecialchars($_SESSION['user_id']); ?></strong></p>
+        </div>
+        
+        <a href="logout.php" class="btn-logout">Logout</a>
+    </div>
 
 </body>
-</html> 
+</html>
