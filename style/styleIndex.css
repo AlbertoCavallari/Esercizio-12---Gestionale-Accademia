@@ -1,47 +1,113 @@
-/* style_index.css */
-
-/* Sfondo e impostazioni generali */
 body {
-    background-color: #1a1c20; /* Colore scuro del login */
+    background-color: #1a1c20;
     font-family: 'Segoe UI', Arial, sans-serif;
     color: #ffffff;
-    text-align: center; /* Centra il testo orizzontalmente */
-    padding-top: 100px;  /* Spazio dall'alto invece del flex */
+    text-align: center;
+    padding-top: 50px;
     margin: 0;
 }
 
-/* Titolo principale */
 h1 {
-    color: #0d47a1; /* Blu istituzionale */
+    color: #0d47a1;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
 
-/* Testo della sessione */
-p {
-    font-size: 1.1rem;
-    color: #cccccc;
-    margin-bottom: 40px;
+.profile-card {
+    background-color: #ffffff;
+    color: #333333;
+    width: 800px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    text-align: left;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
-/* TRASFORMAZIONE DEL TAG <a> IN UN PULSANTE */
-a {
-    display: block;           /* Fondamentale: permette di dare dimensioni al link */
-    width: 220px;             /* Larghezza del pulsante */
-    margin: 0 auto;           /* Centra il blocco 'a' nella pagina */
-    padding: 15px 0;          /* Spazio interno */
-    background-color: #d32f2f; /* Rosso per il logout */
-    color: #ffffff !important; /* Forza il testo bianco */
-    text-decoration: none !important; /* RIMUOVE LA SOTTOLINEATURA AZZURRA */
+.profile-photo img {
+    width: 250px;
+    height: auto;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.profile-details {
+    padding-left: 30px;
+    flex-grow: 1;
+}
+
+.profile-details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-email {
+    display: block;
+    color: #0000ee !important;
+    width: auto !important;
+    margin: 5px 0 20px 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    text-transform: none !important;
+    text-align: left !important;
+    font-weight: normal !important;
+    text-decoration: underline !important;
+}
+
+.info-group {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.info-group p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.upload-form label {
+    display: block;
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.upload-input-container {
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    padding: 3px 12px;
+    cursor: pointer;
+    background-color: #efefef;
+    border: 1px solid #767676;
+    font-size: 0.85rem;
+}
+
+.session-info {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.btn-logout {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: #d32f2f;
+    color: #ffffff !important;
+    text-decoration: none !important;
     font-weight: bold;
-    border-radius: 6px;       /* Angoli leggermente arrotondati */
+    border-radius: 6px;
     text-transform: uppercase;
     transition: background 0.3s ease;
 }
 
-/* Effetto al passaggio del mouse */
-a:hover {
+.btn-logout:hover {
     background-color: #b71c1c;
-    text-decoration: none !important;
 }
