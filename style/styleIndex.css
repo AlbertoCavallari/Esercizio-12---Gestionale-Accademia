@@ -1,0 +1,47 @@
+/* style_index.css */
+
+/* Sfondo e impostazioni generali */
+body {
+    background-color: #1a1c20; /* Colore scuro del login */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center; /* Centra il testo orizzontalmente */
+    padding-top: 100px;  /* Spazio dall'alto invece del flex */
+    margin: 0;
+}
+
+/* Titolo principale */
+h1 {
+    color: #0d47a1; /* Blu istituzionale */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Testo della sessione */
+p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+/* TRASFORMAZIONE DEL TAG <a> IN UN PULSANTE */
+a {
+    display: block;           /* Fondamentale: permette di dare dimensioni al link */
+    width: 220px;             /* Larghezza del pulsante */
+    margin: 0 auto;           /* Centra il blocco 'a' nella pagina */
+    padding: 15px 0;          /* Spazio interno */
+    background-color: #d32f2f; /* Rosso per il logout */
+    color: #ffffff !important; /* Forza il testo bianco */
+    text-decoration: none !important; /* RIMUOVE LA SOTTOLINEATURA AZZURRA */
+    font-weight: bold;
+    border-radius: 6px;       /* Angoli leggermente arrotondati */
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+/* Effetto al passaggio del mouse */
+a:hover {
+    background-color: #b71c1c;
+    text-decoration: none !important;
+}
